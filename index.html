@@ -35,51 +35,57 @@
     </nav>
 
     <!-- Hero Section -->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <!-- Indicators -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <main>
+        <div class="col-lg-8 m-auto">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
 
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/phimai.jpg" class="d-block w-100" alt="ปราสาทหินพิมาย">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded text-white">
+                            <h3>อุทยานปราสาทหินพิมาย</h3>
+                            <p>โบราณสถานสำคัญของอาณาจักรขอมและมรดกทางวัฒนธรรม</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/ThaoSuranari.jpg" class="d-block w-100" alt="ประวัติศาสตร์โคราช">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded text-white">
+                            <h3>ประวัติศาสตร์และวัฒนธรรม</h3>
+                            <p>อนุสาวรีย์ท้าวสุรนารี สถานที่สำคัญที่เต็มไปด้วยเรื่องราว</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/KhaoYai.jpg" class="d-block w-100" alt="ธรรมชาติในโคราช">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded text-white">
+                            <h3>พักผ่อนในอ้อมกอดธรรมชาติ</h3>
+                            <p>เขาใหญ่ จุดหมายปลายทางยอดนิยมของผู้รักธรรมชาติ</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation Buttons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
         </div>
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/phimai.jpg" class="d-block w-100" alt="ปราสาทหินพิมาย">
-                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded text-white">
-                    <h3>อุทยานปราสาทหินพิมาย</h3>
-                    <p>โบราณสถานสำคัญของอาณาจักรขอมและมรดกทางวัฒนธรรม</p>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src="images/ThaoSuranari.jpg" class="d-block w-100" alt="ประวัติศาสตร์โคราช">
-                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded text-white">
-                    <h3>ประวัติศาสตร์และวัฒนธรรม</h3>
-                    <p>อนุสาวรีย์ท้าวสุรนารี สถานที่สำคัญที่เต็มไปด้วยเรื่องราว</p>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src="images/KhaoYai.jpg" class="d-block w-100" alt="ธรรมชาติในโคราช">
-                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded text-white">
-                    <h3>พักผ่อนในอ้อมกอดธรรมชาติ</h3>
-                    <p>เขาใหญ่ จุดหมายปลายทางยอดนิยมของผู้รักธรรมชาติ</p>
-                </div>
-            </div>
-        </div>
-        <!-- Navigation Buttons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
-    </div>
+    </main>
 
     <!-- Footer -->
     <footer class="bg-dark text-light py-4"
@@ -111,7 +117,19 @@
                                 onmouseout="this.style.color='#ffffff'">ติดต่อ</a></li>
                     </ul>
                 </div>
-        </div>
+                  <!-- Social Media Section -->
+                  <div class="col-6 col-lg-3 text-end">
+                    <h5 style="color: #f9f7f7;">Social Media</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" style="color: #ffffff; text-decoration: none;"
+                                onmouseover="this.style.color='#FFD700'"
+                                onmouseout="this.style.color='#ffffff'">Facebook</a></li>
+                        <li class="mb-2"><a href="#" style="color: #ffffff; text-decoration: none;"
+                                onmouseover="this.style.color='#FFD700'"
+                                onmouseout="this.style.color='#ffffff'">Instagram</a></li>
+                    </ul>
+                  </div>
+            </div>
     </footer>
 
 
